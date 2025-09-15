@@ -5,10 +5,11 @@
 
 int main()
 {
-      int c;
+      int c, flag = 0;
     while((c = getchar()) != EOF){
         if(c == '\t')
             printf("\\t");
+            flag = 1;
         if(c == '\b')
             printf("\\b");
         if(c == '\\')
