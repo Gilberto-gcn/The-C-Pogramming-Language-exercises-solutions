@@ -1,4 +1,4 @@
-/*Write a program to print the corresponding Celsius to Fahrenheit table*/
+/*Rewrite the temperature conversion program of section 1.2 to use a function for conversion*/
 #include <stdio.h>
 
 void celsiusFahrenheit(int lower, int upper, int step){
